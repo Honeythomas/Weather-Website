@@ -39,23 +39,6 @@ submit.addEventListener("click", (e) => {
   getWeather(city.value);
 });
 
-// const button = document.getElementById("get-location-button");
-
-// async function getData(cityName) {
-//   const promise = await fetch(
-//     "https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?cityName"
-//   );
-// }
-// async function getlocation(position) {
-//   const result = await getData(position.coords.city);
-// }
-
-// function failedToGet() {
-//   console.log("There was some issue.");
-// }
-// button.addEventListener("click", async () => {
-//   navigator.geolocation.getCurrentPosition(getlocation, failedToGet);
-// });
 const days = [
   "Sunday",
   "Monday",
